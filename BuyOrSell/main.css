@@ -1,21 +1,30 @@
-
-
-body {
-  background-color: #fdf1ec;
+body {  
+  height: 500px;
+  width: 15in;
 }
 
 .wrapper {
   height: 250px;
-  width: 550px;
+  /* width: 550px; */
+  border-radius: 7px;
+  align-items: center;
+  margin:auto ;
+  width: 100%;
+  border: 10px solid rgb(227, 223, 223);
+  padding: 10px;
 
-  border-radius: 7px 7px 7px 7px;
- 
 }
 
 
-table{
-    margin: 10px;
-   
+table {
+  margin: auto;
+  height: auto;
+  width: auto;
+  background-color: #f9f9f9;
+}
+td{
+  padding: 10px;
+  
 }
 
 .product-img {
@@ -26,6 +35,7 @@ table{
 
 .product-img img {
   border-radius: 7px 0 0 7px;
+  /* padding: 20px; */
 }
 
 .product-info {
@@ -33,18 +43,20 @@ table{
   height: 100%;
   width: 60%;
   border-radius: 0 7px 10px 7px;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   font-family: -apple-system;
-font-family: '-apple-system','HelveticaNeue';
+  font-family: '-apple-system', 'HelveticaNeue';
+  /* padding: 20px; */
 }
 
 .product-text {
-  height: 300px;
-  width: 327px;
+  height: 100%;
+  width: 100%;
+  /* padding: 20px; */
 }
 
 .product-text h2 {
-    margin: 0 0 0 12px;
+  margin: 0 0 0 12px;
   padding-top: 16px;
   font-size: 18px;
   color: #474747;
@@ -52,8 +64,8 @@ font-family: '-apple-system','HelveticaNeue';
 
 .product-text h2,
 .product-price-btn p {
-    font-family: -apple-system;
-    font-family: '-apple-system','HelveticaNeue';
+  font-family: -apple-system;
+  font-family: '-apple-system', 'HelveticaNeue';
 }
 
 
@@ -62,16 +74,16 @@ font-family: '-apple-system','HelveticaNeue';
   height: 25px;
   margin: 0 0 0 12px;
   font-family: -apple-system;
-  font-family: '-apple-system','HelveticaNeue';
+  font-family: '-apple-system', 'HelveticaNeue';
   line-height: 1.7em;
   font-size: 15px;
   overflow: hidden;
 }
 
 
-.itemPrice{
+.itemPrice {
   font-family: -apple-system;
-  font-family: '-apple-system','HelveticaNeue';
+  font-family: '-apple-system', 'HelveticaNeue';
   font-weight: bold;
   color: black;
 }
@@ -84,33 +96,42 @@ span {
   font-size: 34px;
 }
 
-.itemScored{
-    display: inline;
-    margin: 0 0 0 12px;
-    font-size: 16px;
+.itemScored {
+  display: inline;
+  margin: 0 0 0 12px;
+  font-size: 16px;
 }
 
-#itemVerified{
-    float: right;
-    color: rgb(0, 102, 255);
-    font-size: 16px;
-    margin: 5;
+#itemVerified {
+  float: right;
+  color: rgb(0, 102, 255);
+  font-size: 16px;
+  margin: 5;
 }
 
-.itemT{
-    color: rgb(0, 0, 0);
-    font-weight: bold;
+.itemT {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
 }
 
-.itemT2{
-    color: rgb(0, 102, 255);
-    font-weight: lighter;
+.itemT2 {
+  color: rgb(0, 102, 255);
+  font-weight: lighter;
 }
 
-#itemSave{
-    float:right;
-    color: rgb(0, 0, 0);
-    font-size: 16px;
-    margin: 5px;
-    
+#itemSave {
+  float: right;
+  color: rgb(0, 0, 0);
+  text-align: end;
+  padding-top: 20px;
+  font-size: 16px;
+  margin:auto ;
+}
+nav{
+  border: #474747 solid 1px;
+  margin-bottom: auto;
+}
+
+.btnIcon{
+  margin-left: 10px;
 }
